@@ -2,13 +2,12 @@ package PageObject;
 
 import com.codeborne.selenide.SelenideElement;
 
+import static DataObject.ShopPageData.Adress;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
-public class LanguagePage {
-    public static SelenideElement
-    LangClic = $(byText("ge"));
+public class ShopPage {
     public SelenideElement
-            LangBtn = $(byText("English"));
-
+            SHopClick = $(byText("მაღაზიები")),
+            ShopaddresClick = $(byText(Adress));
 }

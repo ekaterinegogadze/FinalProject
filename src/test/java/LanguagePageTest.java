@@ -1,6 +1,7 @@
 import StepObject.LanguagePageSteps;
 import Utils.ChromeRunner;
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ public class LanguagePageTest extends ChromeRunner {
 
 
     @Test
-    @Severity(SeverityLevel.MINOR)
+    @Severity(SeverityLevel.NORMAL)
     public void LanguageMeTod (){
         LanguagePageSteps.LangClic()
 
@@ -22,5 +23,6 @@ public class LanguagePageTest extends ChromeRunner {
         sleep(5000);
 
     }
+
 
 }

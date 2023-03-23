@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Automation Suite" verbose="1" thread-count="4" parallel="tests">
+<suite name="Automation Suite" verbose="1" thread-count="5" parallel="tests">
     <test name="RegisterPageTest" parallel="tests">
         <classes>
             <class name="RegisterPageTest"/>
@@ -21,4 +21,10 @@
             <class name="LanguagePageTest"/>
         </classes>
     </test>
+    <test name="ShopPageTest" parallel="tests">
+        <classes>
+            <class name="ShopPageTest"/>
+        </classes>
+    </test>
+
 </suite>
